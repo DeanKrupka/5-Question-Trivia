@@ -1,4 +1,4 @@
-# co69d4f348a8019ab7a4c1f56
+# Simple 5-question Trivia game 
 
 Quick start:
 
