@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
+.start-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+    height: 100vh;
+}
+
+.start-page-container>h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.start-page-container>h2 {
+    margin: .4em 0 1em;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.start-btn, .submit-btn, .restart-game {
+    color: white;
+    background-color: #4D5B9E;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 10px;
+    font-family: "Karla", sans-serif;
+}
+
+.submit-btn, .restart-game {
+    margin: 1em auto;
+}
+
+.correct-answer {
+    background-color: greenyellow;
+    color: green;
+}
+
+.incorrect-answer {
+    background-color: lightcoral;
+    color: red;
+}
+
+.not-submitted,
+.correct-answer,
+.incorrect-answer,
+.blank {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quiz-container {
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    padding: 1em;
+}
+
+.indiv-question {
+    margin: 0;
+    padding: 1em 0 .25em 0;
+}
+
+.answers-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.indiv-answer {
+    margin-right: .4em;
+}
